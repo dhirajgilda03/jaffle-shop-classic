@@ -11,7 +11,7 @@ test-paths: ["tests"]
 analysis-paths: ["analysis"]
 macro-paths: ["macros"]
 
-target-path: "{{ target }}"
+target-path: "{{ 'target' }}"
 clean-targets:
     - "target"
     - "dbt_modules"
