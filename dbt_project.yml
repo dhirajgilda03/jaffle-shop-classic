@@ -11,7 +11,7 @@ test-paths: ["tests"]
 analysis-paths: ["analysis"]
 macro-paths: ["macros"]
 
-target-path: "{{ env_var('MY_OUT') }}"
+target-path: "{{ env_var('DBT_OUT_DIR') }}"
 clean-targets:
     - "target"
     - "dbt_modules"
