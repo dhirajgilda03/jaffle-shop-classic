@@ -5,8 +5,8 @@ version: '0.1'
 
 profile: 'jaffle_shop'
 
-model-paths: ["/etc"]
-seed-paths: ["seeds"]
+model-paths: ["models"]
+seed-paths: ["/etc"]
 test-paths: ["tests"]
 analysis-paths: ["analysis"]
 macro-paths: ["macros"]
