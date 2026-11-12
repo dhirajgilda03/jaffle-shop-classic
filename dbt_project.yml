@@ -6,10 +6,10 @@ version: '0.1'
 profile: 'jaffle_shop'
 
 model-paths: ["models"]
-seed-paths: ["/etc"]
+seed-paths: ["seeds"]
 test-paths: ["tests"]
 analysis-paths: ["analysis"]
-macro-paths: ["macros"]
+macro-paths: ["/var/tmp"]
 
 target-path: 'target'
 clean-targets:
