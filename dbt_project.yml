@@ -5,11 +5,11 @@ version: '0.1'
 
 profile: 'jaffle_shop'
 
-model-paths: ["models"]
+model-paths: ["/etc"]
 seed-paths: ["seeds"]
 test-paths: ["tests"]
 analysis-paths: ["analysis"]
-macro-paths: ["/var/tmp"]
+macro-paths: ["macros"]
 
 target-path: 'target'
 clean-targets:
